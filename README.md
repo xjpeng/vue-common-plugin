@@ -1,14 +1,33 @@
-# webpack3.8
-webpack3.8+vue2环境
-## Build Setup
-建议使用yarn
-``` bash
-# install dependencies
-yarn
+# vue 通用插件
 
-# serve with hot reload at localhost:8080
-yarn run dev
+包括以下插件
 
-# build for production with minification
-yarn run build
-```
+- Loading
+- Alert
+- Confirm
+- Toast Loading
+
+	//安装
+    yarn install
+    //运行
+    yarn run dev
+    //生成
+    yarn run build
+    
+ 	//显示全局ajax loading
+    this.$loading.show();
+
+	//关闭loading
+	this.$loading.hide();
+	
+	//打开Alert
+	this.$weui.alert(msg);
+
+	//打开Confirm
+	this.$weui.confirm(msg,okcallback=null,cancecallback=null,title='提示');
+
+	//打开Loading Toast
+	this.$weui.loading(msg='');
+
+	//关闭loading Toast
+	this.$weui.loadingEnd();
