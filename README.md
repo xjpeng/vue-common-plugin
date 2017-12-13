@@ -6,7 +6,10 @@
 - Alert
 - Confirm
 - Toast Loading
-## Code ##
+
+# [demo](https://xjpeng.github.io/vue-common-plugin/) #
+
+## code ##
     //安装
     yarn install
 
